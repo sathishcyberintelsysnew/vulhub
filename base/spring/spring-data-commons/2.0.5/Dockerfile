@@ -5,7 +5,7 @@ COPY ./ /usr/src
 RUN cd /usr/src; \
     mvn clean install
 
-FROM openjdk:8-jre
+FROM openjdk:21-ea-13-jdk-slim
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
