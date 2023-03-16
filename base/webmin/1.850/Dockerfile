@@ -1,4 +1,4 @@
-FROM buildpack-deps:22.04-curl
+FROM buildpack-deps:22.10-curl
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
