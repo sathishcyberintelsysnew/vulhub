@@ -1,4 +1,4 @@
-FROM python:3.12.0a5-slim
+FROM python:slim-bookworm
 
 LABEL maintainer="python <root@leavesongs.com>"
 
